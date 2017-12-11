@@ -18,7 +18,7 @@ public class ClienteDAO {
 		}
 	}
 
-	// Obtém conexão com o banco de dados
+	// ObtÃ©m conexÃ£o com o banco de dados
 	public Connection obtemConexao() throws SQLException {
 		return DriverManager.getConnection("jdbc:mysql://localhost/vendas?user=alunos&password=alunos");
 	}
@@ -97,4 +97,3 @@ public class ClienteDAO {
 	}
 
 }
-//Cl�udio Oliveira
