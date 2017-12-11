@@ -16,10 +16,10 @@ public class ClienteTest {
 	/*
 	 * Antes de rodar este teste, certifique-se que nao ha no banco nenhuma
 	 * linha com o id igual ao do escolhido para o to instanciado abaixo. Se
-	 * houver, delete. Certifique-se também que sobrecarregou o equals na
+	 * houver, delete. Certifique-se tambÃ©m que sobrecarregou o equals na
 	 * classe Cliente. Certifique-se que a fixture cliente1 foi criada no banco.
-	 * Além disso, a ordem de execução dos testes é importante; por isso a
-	 * anotação FixMethodOrder logo acima do nome desta classe
+	 * AlÃ©m disso, a ordem de execuÃ§Ã£o dos testes Ã© importante; por isso a
+	 * anotaÃ§Ã£o FixMethodOrder logo acima do nome desta classe
 	 */
 	@Before
 	public void setUp() throws Exception {
@@ -72,4 +72,4 @@ public class ClienteTest {
 		cliente.carregar();
 		assertEquals("testa exclusao", cliente, copia);
 	}
-}//Cl�udio Oliveira
+}
